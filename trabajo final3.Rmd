@@ -1,0 +1,547 @@
+---
+title: "Grupo 5 - Trabajo Final"
+author: "Alex Tumiri - Gonzalo Rengel - Jhanir Peña - Kalep Peñaranda"
+date: '2022-06-01'
+output: slidy_presentation
+duration: 20  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## Análisis de Riesgo
+
+> En estos días hay dos lenguajes que se están imponiendo en el terreno de abordar y aplicar los conceptos de **Analítica de Datos.**
+
+* Python
+
+* R-Cran
+
+<center>
+
+![](phyton.jpg){width=280px} ![](r.jpg){width=280px}
+
+</center>
+
+## Desambiguación de conceptos
+
+**Mecanismo informatico**
+
+> Cualquier estadístico que usemos puede ser abordado con el uso de computadora tomando datos etiquetados luego con un algoritmo apropiado podemos construir un modelo.
+
+<center>
+
+![](mi.jpg){width=400px}
+
+</center>
+
+**Analitica de Datos**
+
+> En analítica de datos invertimos el proceso. Tomando datos sin etiquetar los sometemos al análisis de un modelo y predecimos que resultado se obtendría.
+
+<center>
+
+![](AD.jpg){width=400px}
+
+</center>
+
+## Enfoque de la inteligencia artificial
+
+> En inteligencia artificial no tenemos un algoritmo que puede crear el modelo en base a las etiquetas de los datos.
+
+> En este caso se opera en forma no supervisada. para crear un modelo.
+
+> El resultado de la inteligencia artificial es un modelo que nos entrega datos y nos muestra patrones de semejanza entre los datos de entrenamiento y los de prueba.
+
+<center>
+
+![](ia.jpg){width=500px}
+
+</center>
+
+## Abordaje Machine Learning
+
+> En **Machine Learning** enviamos datos como reglas y con las técnicas de Intelgencia Artificial obtenemos respuestas
+
+> Si a estas respuestas añadimos nuevas evidencias obtenemos el descubrimiento de nuevos algoritmos
+
+> Pero este proceso es recursivo y puede repetirse infinitas veces.
+
+<center>
+
+![](machine.jpg){width=700px} 
+
+</center>
+
+## Logística Humanitaria
+
+**Logística y emergencias**
+
+> Se denomina **Logística** al sistema en el cual la interrelación de sus partes facilita la obtención de un objetivo de una forma más rápida y organizada mediante la utilización optimizada de los recursos
+
+> En las emergencias para apoyar organizar e implementar las acciones de respuesta para que estas no sean rápidas sino también agiles y efectivas
+
+<center>
+
+![](Logsticahum1.jpg){width=800px} 
+
+</center>
+
+
+## Planificación y preparación de la logística
+
+> Los procesos y actividades logisticos pueden ser planificadas y necesitan de una preparacion que sera decisiva para su apropiado funcionamiento.
+
+**El Plan**
+
+> La planificación y la previsión son vitales para establecer un adecuado sistema logístico
+Esta planificación debe estar basada en un buen conocimiento del contexto
+
+* Geográfico
+* Social
+* Político
+* Físico
+
+> Este plan debe responder a las siguientes preguntas :
+
+* ¿Cuáles son las tareas que deben ser realizadas?
+
+* ¿Cómo se relacionan con otras actividades y cuáles son las secuencias de su realización?
+
+* ¿Quiénes serán los responsables de realizar dichas tareas?
+
+* ¿Cuáles recursos serán necesarios? ¿Cómo y dónde se conseguirán?
+
+## La preparación 
+
+**Vulnerabilidad**
+
+**Análisis de Vulnerabilidad de la infraestructura**
+
+> Con este análisis se pretende identificar las fortalezas y debilidades de las obras y recursos estratégicos del país en estudio y simultáneamente prever acciones alternativas en caso de colapsar la infraestructura disponible en tiempos normales
+
+> Algunas de las tareas a desarrollar son:
+
+* Mapeo y revisión
+* Analizar los registros climáticos
+* Monitorear regularmente las modificaciones
+
+## Recursos Estratégicos
+
+**Disponibilidad de recursos estratégicos para apoyo logístico**
+
+> Estos recursos son bienes que cambian regularmente atravez del tiempo lo cual es ideal hacer una revisión periódica y frecuente para mantener la información lo más actualizada posible
+
+> Dentro de este punto se debe:
+
+* Hacer un inventario en el país de las fuentes y localización de diferentes tipos de suministros que podrían ser necesitados en una emergencia
+* Examinar sitios para la operación de bases logísticas
+* Ver la Disponibilidad de refacciones y acceso a reparaciones.
+* Evaluar Capacidad de puertos y aeropuertos para manejar provisiones de emergencia bajo diferentes escenarios
+
+## Políticas y Planes
+
+**Revisión de políticas, planes y preparativos gubernamentales:**
+
+> Es sustancial conocer cuáles son los planes y políticas del estado con relación a las emergencias
+
+> El gobierno es el principal responsable de las acciones de asistencia
+
+> Toda la información obtenida y las actividades realizadas en esta etapa de planificación y preparación de la logística, deberán servir como base para la elaboración del plan que describa los procedimientos, los responsables y sus tiempos de ejecución
+
+## La cadena logística de los suministros en emergencias
+
+> Su tarea primordial consiste en “entregar las provisiones apropiadas, en buenas condiciones y en las cantidades solicitadas, en los lugares y en el momento en que son requeridas
+
+> Las partes de la cadena logística son:
+
+<center>
+
+![](cuatropl.jpg){width=700px} 
+</center>
+
+## La cadena logística de los suministros en emergencias
+
+> Se caracterizan por ser operaciones de plazos u horizontes de operación limitados.
+
+>Se conciben para durar operando hasta que la comunidad afectada recupere sus características operacionales e inicie la recuperación o reconstrucción.
+
+>Lo ideal seria recurrir a la externalización logística 4PL.
+
+> 4PL (Fourth Party Logistics): el operador logístico se hace responsable de toda operación logística de una empresa, incluido el desarrollo estratégico de la misma.
+
+> Contratar un operador logístico 4PL significa que la empresa en cuestión quiere, por así decirlo, olvidarse de la gestión de su cadena de suministro.
+
+<center>
+
+![](CUATRO.jpg){width=800px}
+
+</center>
+
+## La cadena logística de los suministros en emergencias
+
+**El abastecimiento**
+Se debe poner al servicio de las organizaciones los recursos identificados como necesarios y solicitados para la atención de las necesidades detectadas
+
+<center>
+
+![](ABASTE.jpg){width=400px}
+
+</center>
+
+**El transporte**
+
+Es el medio para hacer llegar los suministros al sitio donde son necesarios
+
+<center>
+
+![](TRASNPORT.jpg){width=300px}
+
+</center>
+
+## La cadena logística de los suministros en emergencias
+
+**El almacenamiento**
+
+Permite proteger los suministros mediante un sistema organizado, hasta que puedan ser entregados a su destino final
+
+**La distribución**
+
+El gran objetivo de toda la cadena logística consiste en entregar la asistencia a las personas afectadas por el desastre procurando que esta sea proporcional, equitativa y controlada para evitar los abusos y el desperdicio.
+
+<center>
+
+![](ETAPAS.jpg){width=700px}
+
+</center>
+
+## Evaluación de necesidades logísticas y de suministros
+
+> Tiene como fin, determinar de la manera más aproximada posible cuáles son las necesidades generadas a los pobladores de la región afectada por un evento desastroso
+
+> Desde la perspectiva de los suministros Las evaluaciones deben contener elementos para determinar los aspectos siguientes:
+
+* Evaluación de necesidades: 
+
+  + Necesidades de la población
+  + Necesidades para las operaciones
+  
+* Evaluación de capacidades: 
+
+  + Capacidad de la infraestructura local
+  + Disponibilidad de local de recursos
+  
+* Medidas de restricción o de facilitación :
+
+  + ONG Locales
+  + Agencias Cooperación Internacional
+  + Aduanas
+  + Pactos regionales
+  + Políticas y Leyes
+
+## Principales Organismos internacionales que intervienen en emergencias.
+
+> **Organismos de Naciones Unidas.**
+
+* Programa de Naciones Unidas para el Desarrollo (PNUD)
+* Departamento de Asuntos Humanitarios (OCHA)
+* Programa Mundial de Alimentos (PMA)
+* Alto Comisionado de la Naciones Unidas para los Refugiados (ACNUR)
+* Fondo de las Naciones Unidas para la Infancia (UNICEF)
+* Organización Mundial de la Salud / Organización Panamericana de la Salud (OMS/OPS)
+
+<center>
+
+![](ONU.jpg){width=300px}
+
+</center>
+
+## Principales Organismos internacionales que intervienen en emergencias.
+
+> **Agencias multilaterales.**
+
+* Organización de Estados Americanos (OEA)
+* Agencia del Caribe para Asistencia a los Desastres (CDERA) 
+* Centro para la Prevención de desastres naturales en América Central (CEPREDENAC) 
+* Oficina de asistencia humanitaria de la comunidad europea (ECHO) 
+
+<center>
+
+![](OEA.jpg){width=500px}
+
+</center>
+
+## Principales Organismos internacionales que intervienen en emergencias.
+
+> **Agencias gubernamentales o bilaterales.**
+
+* OFDA-AID Oficina del gobierno de los Estados Unidos de América para desastres en el exterior. 
+* Agencia Japonesa de Cooperación Internacional (JICA) 
+* Agencia Alemana de Cooperación (GTZ) 
+* Agencia Sueca de Desarrollo Internacional (SIDA) 
+
+<center>
+
+![](JICA.jpg){width=800px}
+
+</center>
+ 
+## Principales Organismos internacionales que intervienen en emergencias.
+
+> **Principales organizaciones no gubernamentales**
+
+* Movimiento de la Cruz Roja y la Media Luna Roja 
+* Comité Internacional de la Cruz Roja
+* CARE 
+* CARITAS 
+* Médicos Sin Fronteras (MSF) 
+* OXFAM 
+* Acción Contra el Hambre (ACH) 
+* Ejército de Salvación.
+* Consejo Mundial de Iglesias 
+
+<center>
+
+![](CRUZ.JPG){width=200px}
+
+</center>
+
+
+## Sostenibilidad y Distribucion multicanal
+
+**Estrategia Multicanal**
+
+> Las estrategias multicanales son el conjunto de herramientas que permiten:
+
+* Atender a los clientes por diferentes vías
+* Donde la comunicación responde de forma independiente y sin integrarse entre sí
+
+
+## Multicanal
+
+> La multicanalidad se encarga de entregar por parte de las empresas un conjunto de distintos canales a sus clientes, pero la información entregada en cada canal es realizada de forma independiente.
+
+<center>
+
+![](multicanal.png){width=300px}
+
+</center>
+
+## ¿Cuál es el principal problema al aplicar estrategias multicanales?
+
+> El problema principal de las estrategias multicanales son:
+
+* Descoordinación y falta de alineamiento entre canales
+
+En si los clientes: 
+
+* cambian de canales permanentemente eligiendo el mas cómodo a su parecer 
+
+Así que ellos esperan respuestas rápidas de parte de las empresas ante cualquier problema como ser:
+
+* Perdidos de productos enviados
+
+* Demoras en entregas
+
+<center>
+
+![](problemamult.jpg){width=500px}
+
+</center>
+
+## Omnicanal
+
+> **Omnicanal** significa todos los canales al mismo tiempo. 
+
+> Donde a los clientes tienen la capacidad de comprar lo que quieran donde quieran y cuando quieran.
+
+> Es una estrategia centrada en el cliente la cual incluye, toda la relacion y comunicacion que tiene un cliente con la empresa por distintos canales: 
+
+* Tiendas fisicas (Retail)
+* Internet
+* Contact Centers
+
+
+<center>
+
+![](omnicanal.jpg){width=480px}
+
+</center>
+
+## Elementos claves para implementar Omnicanal
+
+* Comunicación con el cliente
+* Integración de los sistemas del cliente
+* Información en tiempo real
+* Integración con los transportistas
+* Innovaciones tecnológicas
+
+<center>
+
+![](comunicacion.jpg){width=590px} ![](Inforeal.jpg){width=500px} ![](innovtec.jpg){width=520px}
+
+</center>
+
+
+## Microcadena de Suministros “Nano Retail”
+
+> **¿Que es la microventa?** 
+
+> Es un modelo minorista que incluye tiendas emergentes a pequeña escala
+
+> Este modelo brinda varias **ventajas**:
+
+* Requiere gastos generales bajos
+* El Alquiler es barato
+* No se necesita mucho personal para administrarlo
+* Al tener menos espacio para stock se dispone de más espacio para la innovación
+
+<center>
+
+![](nanostore.jpg){width=500px}
+
+</center>
+
+
+## Como lanzar una microtienda minorista exitosa
+
+> Principalmente se deberia buscar **Asociarse con otras tiendas**
+
+> Las microtiendas pueden ser instaladas en distintos espacios o incluso dentro de otras tiendas
+
+Al buscar otro socio minorista para asociarse se debe considerar:
+
+* Las audiencias principales u objetivo estén alineadas.
+
+* Buscar socios con productos que complementen a los suyos.
+
+* Mantener ambas marcas claramente separadas.
+
+### Retribuir a la comunidad local
+
+> Estas microtiendas deben retribuir a sus comunidades ya sea con:
+
+* Campañas de donación
+
+* Organizando eventos sobre temas de interés para nuestra audiencia
+
+> Estos eventos atraen nuevos clientes e impulsan la lealtad de nuestros clientes habituales.
+
+## Segmentar el mercado para adaptar los productos al comprador local
+
+> La segmentación del mercado es el proceso de identificar los grupos de personas con más probabilidades de convertirse en clientes. 
+
+> Los microminoristas deben seleccionar su inventario en relación con su ubicación determinada.
+
+> **Los microminoristas deben tener muy cuenta la segmentación del mercado para crear experiencias únicas a los clientes.**
+
+
+<center>
+
+![](segmentacion.jpg){width=800px}
+
+</center>
+
+## Logistica Inversa
+
+> Es el proceso de planificación, desarrollo y control eficiente del flujo de materiales, productos e información desde el lugar de origen hasta el de consumo.
+
+> De manera que se satisfagan las necesidades del consumidor, recuperando el residuo obtenido y gestionándolo de modo que sea posible su reintroducción en la cadena de suministro, obteniendo un valor agregado y/o consiguiendo una adecuada eliminación del mismo.
+
+<center>
+
+![](loginv.jpg){width=1000px}
+
+</center>
+
+## Productos Fuera de Uso (PFU)
+
+> Se tiene dos tipos de bienes que fluyen de manera inversa: 
+
+> Los deseados y los no deseados
+
++ Los no deseados: Son artículos que entran al flujo inverso por razones no conocidas pero generalmente a causa de  la insatisfacción del consumidor
+
+* Los Deseados : Son artículos de acuerdos postventa con el consumidor, brindandole algunas ventajas en el intercambio, reemplazo o de compra.
+
+> **Actividades Relacionadas**
+
+> La **“reducción de recursos”** debe ser el objetivo esencial de cualquier programa que pretenda hacer funcionar efectivamente actividades de Logística Inversa
+
+> Las actividades de Logística Inversa deben comenzar desde la etapa de diseño del producto.
+
+> Seguida por la reutilización de los artículos o productos es decir el reciclaje.
+
+> Finalmente se debe considerar el desecho del producto del cual todavía se puede sacar algún provecho por ejemplo:
+
+<center>
+
+•	Aquellos productos  de los cuales es posible recuperar algunas formas de energía
+
+</center>
+
+## Formas de competitividad
+
+> Una **ventaja competitiva** es cualquier característica de la empresa que la aísla de la competencia directa dentro de su sector.
+
+> Hay tres tipos básicos de ventaja competitiva:
+
+
+* **Liderazgo de costos**: Implica tener los costos más bajos en el sector, pero el producto debe ser de una calidad similar o equivalente a la de la competencia.
+
+* **Diferenciación**: Una empresa busca ser única en su sector valiéndose de algunas dimensiones que son ampliamente valoradas por los compradores, dedicándose a satisfacer estas necesidades.
+
+* **Enfoque a nicho**: Consiste en la elección de un mercado específico dentro de un sector determinado. 
+
+> La consecución de ventajas competitivas a través de la Logística Inversa dependerá: 
+
+* De la forma como se recupere el valor que conservan los productos devueltos, desechados por el consumidor o fuera de uso.
+
+## Ventajas y beneficios potenciales de la Logística Inversa
+
+o	Disminución de la “sorpresa” o incertidumbre en la llegada de Productos Fuera de Uso.
+
+o	 Reaprovechamiento de algunos materiales. 
+
+o	Posibilidad de la empresa de abarcar otros mercados.
+
+o	Mayor confianza en el cliente al momento de tomar la decisión de compra. 
+
+o	Mejora considerable de la imagen de la empresa ante los consumidores. 
+
+o	Obtención de información de retroalimentación acerca del producto.
+
+<center>
+
+![](ventaja.jpg){width=500px}
+
+</center>
+
+## Puntos críticos o posibles dificultades de la Logística Inversa
+
+•	Todos los departamentos de la empresa están relacionados con las actividades que se pretendan implementar de Logística Inversa. 
+
+•	Las entradas a un proceso de Logística Inversa son “impredecibles”. 
+
+•	Las inspecciones deben ser realizadas en cada producto de forma individual y minuciosa. 
+
+•	La nueva cadena (inversa) incluye un número de procesos inexistentes en logística directa.
+
+•	Se debe decidir si la empresa debe realizar las distintas actividades con sus propios recursos o si, por el contrario, requerirá los servicios de un operador espeializado (3PL). 
+
+•	Las devoluciones en pequeñas cantidades tienden a representar mayores costos al integrarlos al sistema.
+
+<center>
+
+![](desventaja.jpg){width=500px}
+
+</center>
+
+
+## .
+
+<center>
+
+![](gracias.jpg){width=1000px}
+
+</center>
