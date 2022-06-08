@@ -1,0 +1,233 @@
+---
+title: Caso de Estudio "Lluvias torrenciales causan inundaciones en el estado de Pernambuco (Brasil)" 
+author: "Kalep Peñaranda - Gonzalo Rengel - Jhanir Peña"
+date: '2022-06-08'
+output: slidy_presentation
+duration: 20 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Descripcion
+
+Las inundaciones en la región de Recife, capital del estado de Pernambuco, al nordeste brasileño, dejan ya 91 fallecidos. Además, 26 personas continúan desaparecidas entre los escombros ocasionados por las fuertes lluvias y cerca de **5.000 personas**  han perdido sus hogares.
+
+La situación en el estado de Pernambuco se recrudeció desde este sábado, aunque las lluvias iniciaron el pasado 22 de mayo. En la última semana ya hubo cinco muertos y varias casas desaparecieron a causa de desprendimientos de tierra e inundaciones.
+
+Con el agravamiento de la situación, desde el sábado las labores de rescate no han parado por parte del Ejército, la Defensa Civil, los Bomberos, la Policía Federal, los organismos locales y los voluntarios que se han acercado hasta la zona para socorrer a los miles de afectados.
+
+## Pregunta de Investigación
+
+>**¿Cómo se puede implementar técnicas de logística humanitaria para contrarrestar efectos de los desastres naturales dentro una comunidad?**
+
+>**¿How can humanitarian logistics techniques be implemented to counteract the effects of natural disasters inside a community?**
+
+Existen diversas técnicas y cálculos que nos pueden ayudar a contrarrestar el impacto de de los desastres naturales en las comunidades esta vez nos enfocaremos en los siguientes:
+
+* Cálculo de las necesidades base al número de personas a asistir.
+* Cálculo de los requerimientos básicos.
+* Cálculo de Capacidades de Almacenamiento.
+* Cálculo de raciones.
+* Cálculo de transporte requerido.
+
+## Calculo de las necesidades 
+
+El tamaño de bodega que se necesita dependerá de la cantidad de suministros esperados, en las operaciones típicas de emergencia por lo general es sumamente difícil prever las cantidades que se van a recibir.
+
+Se sabe que, dependiendo de su peso, las provisiones ocupan diferente **“volumen de almacenamiento”**. 
+
+Los siguientes son ejemplos del espacio aproximado que se requeriría para almacenar una tonelada métrica de diversos tipos de suministros:
+
+Insumo| Volumen
+------------- | -------------
+Granos (arroz, maíz), harina, azúcar en sacos | $2 m^3$
+Leche polvo en sacos o cajas  | $3 m^3$
+Medicamentos | $3 m^3$
+Aceite vegetal o en latas | $1,5 - 2 m^3$
+Frazadas en paquetes comprimidos (aprox. 700)  | $4 - 5 m^3$
+Frazadas sueltas | $8 - 10 m^3$
+Ropa | $7 - 10 m^3$
+Tiendas (aprox. 25 carpas familiares) | $4 - 5 m^3$
+Utensilio de cocina | $4 - 5 m^3$
+
+## Calculo de capacidades de almacenamiento
+
+Estimaremos este calculo para un población de **5000 personas** que es la cantidad de personas afectadas por este suceso en Brazil:
+
+
+**Detalle**| **Metricas **
+--------| ---------
+Población a ser servida                | Llegada esperada de 5000 
+Distribución propuesta                 | Una tienda por familia (promedio de 6 personas por familia)
+Frecuencia de distribución             |  					Una vez
+Periodo requerido del suministro       |					 3 dias
+Peso / Unidad de volumen de los bienes |  				1 TM = 25 tiendas = $5 m^3$
+Reserva de suministro                  |  						10%
+
+## Calculo de capacidades de almacenamiento
+
+
+**Detalle**| **Calculo **
+------------- | -------------
+Cantidad de tiendas para almacenar | $T= \frac{5000}{6}=834$
+Coeficiente de Reserva del 10% | $834 * 1,10=918$
+Volumen de las tiendas  | $\frac{918 * 5 m^{3}}{25}=184 m^{3}$
+Para una altura de 2 metros, el área de piso requerida | $\frac{184 m^{3}}{2m}=92 m^{2}$  
+Carga en piso | $\frac{918 tiendas}{25 tiendas/Tm}=37 Tm$
+Presión en base | $\frac{37 Tm}{92 m^{2}}=402 kg/m^{2}$
+
+**Recomendación:**
+
+Calcule los $92 m^{2}$ $+20$ % para acceso y ventilación para las tiendas que es igual a $110 m^{2}$ del suelo 
+
+## Cálculo de raciones
+
+Un método aproximado pero muy utilizado en logística militar es lA (norma std-mil 22-0-14), que nos da un ejemplo que para  30.000 personas un acopio inicial de emergencia seria igual a 100 Tm de Arroz
+
+Sabiendo esto aplicamos un regla de 3 para obtener la cantidad inicial de arroz para **5000 personas**
+
+> El resultado nos da que para **5000 personas** necesitaremos un cantidad inicial de 17 Tm de Arroz
+
+> Realizaremos el Cálculo de área para 17 toneladas de arroz con una altura de almacenamiento de 2 metros.
+
+Hipótesis de Calculo | Metricas
+------------- | -------------
+1 Tm de Arroz | $2 m^3$
+17 Tm de Arroz | $34 m^3$
+Área necesaria en piso  | $\frac{34 m^3}{2m}=17 m^2$
+Total del área requerida más un 30% | $17 m^{2} * 1,30=22 m^{2}$
+Poligono en Piso $\sqrt{T_Req}$ | $\sqrt{22} = 4,7m$
+Carga en Piso | $\frac{17 Tm}{17 m^{2}}=1000 kg/m{2}$
+
+## El transporte
+
+> El transporte es el componente de la cadena logística que servirá para hacer llegar la asistencia al sitio donde es requerida. 
+
+> Al definir la estrategia de transporte se debe tomar en cuenta no solo los medios y recursos necesarios para la movilización, sino que se debe determinar cuáles son las posibilidades reales y cuáles las alternativas para la entrega de la asistencia.
+
+**Tipos de transporte y caracteristicas**
+
+<center>
+
+![](Imagen1.jpg){width=900px}
+
+</center>
+
+
+## Seleccion de Ruta
+
+La selección de las rutas depende del transporte con que se cuente, la urgencia de la entrega y el itinerario de entregas
+
+Como principio general se debe escoger la ruta más segura, aunque algunas veces esta no sea la más corta. 
+
+Para este caso de estudio había dos rutas que nos llevaban de Pernambuco que era el **sitio de despacho** hacia Recife que era el **sitio de recepción** la 1ra ruta consta de 284.5 km y 2da ruta consta de 302.6 km
+
+Se opto por la ruta de 302.6 km ya que esta ruta es mas segura y tiene mejores condiciones de transito, aunque la distancia a recorrer es más larga.
+
+<center>
+
+![](Imagen2.jpg){width=700px}
+
+</center>
+
+## Calculo de Transporte Requerido
+
+> Al considerarse una zona de difícil acceso el método de transporte utilizado será por Pick Ups 4x4 se sabe que estos tipos de vehículos tienen una capacidad de carga de hasta 1 Tm.
+
+**Detalle**| **Metricas **
+--------| ---------
+Periodo de Tiempo de la misión  | 3 dias = 72 horas 
+Duración Ida y Vuelta( Incluyendo tiempo de carga y descarga)  | 12 horas
+Toneladas de carga a mover | 17 Tm 
+Capacidad de carga de los vehículos | 1 Tm
+Adición por Contingencias | 25%
+
+**Calculo**
+
+$N^{\circ}$ de posibles viajes por vehiculo $=\frac{\text { Periodo  }}{\text { Duracion ida-vuelta }}$
+
+$N^{\circ}$ de posibles viajes por vehiculo $=\frac{72 hrs}{12hrs}=6 viajes$
+
+$N_{\text {cargas }}=\frac{\text { Tonelajetotal }}{\text { Capacidad Vehiculo }}$
+
+$N_{\text {cargas }}=\frac{17 Tm}{1Tm}=17 cargas$
+
+$N_{\text {Vehiculos }}=\frac{\text { N de cargas }}{\text { N de posibles viajes por vehiculo }}$
+
+$N_{\text {vehiculos }}=\frac{17 }{6}=2,83 = 3vehiculos$
+
+Total de vehículos requeridos más un 25% por contingencias 
+
+$2.83 * 1.25 = 3,53 = 4 vehiculos$
+
+## Calculo de Combustible y Kilometraje
+
+> El combustible es un bien muy codiciado en todo tiempo y muy especialmente en tiempos de escasez como lo son las emergencias. 
+
+> El consumo de los vehículos deberá ser anotado indicando la fecha y el kilometraje de cada reabastecimiento.
+
+> Este control debe ser revisado periódicamente por el responsable de la flotilla y verificar cualquier anormalidad en los consumos.
+
+> A continuación, se presenta un modelo básico de control de consumo de combustible y su relación con los kilómetros recorridos
+
+**Control de combustible y Kilometraje**
+
+<center>
+
+![](Imagen3.jpg){width=700px}
+
+</center>
+
+> La siguiente tabla muestra ejemplo de promedio de consumo de algunos tipos de vehículos estos promedios son únicamente de referencia ya que estos pueden variar dependiendo de las características de la ruta, de la cantidad de carga que transporten y de la velocidad de desplazamiento.
+
+<center>
+
+![](Imagen4.jpg){width=900px}
+
+</center>
+
+## Calculo de Combustible y kilometraje
+
+Para este calculo en este caso de estudio el medio de transporte utilizado son las Pick Ups de motor de gasolina con un consumo promedio de 14 a 17 litros.
+
+**Detalle**| **Metricas **
+--------| ---------
+Distancia de Pernambuco a Recife   | 302.6 km
+N° de posibles viajes por vehículo    | 6
+Total de Vehículos requeridos    | 4
+N° Total de viajes    | 24 viajes
+Km totales a recorrer por los vehículos   | $24 viajes * 302.6 km = 7262.4 km$
+
+**Consumo total de litros de Gasolina:**
+
+Sabiendo que por cada 100 km se consume 17 litros de gasolina 
+
+Aplicando una regla de 3 se tendría que para: 7262.4 km se consumiría **1234.608 litros de gasolina**
+
+**Según GlobalPetrolPrices los Precios de la gasolina en brazil hasta el 6 de junio de 2022 fueron:**
+
+<center>
+
+![](Imagen5.jpg){width=900px}
+
+</center>
+
+Consumo de Gasolina total = 1234.608 litros * 1.508  = 1861.78 $
+
+En base a los cálculos realizados se debería destinar **1861.78 $** dólares para la compra de gasolina para los vehículos 
+
+## Argumentos finales
+
+> Como se vio a lo largo del caso estudio existen diversas formas de contribuir a contrarrestar el impacto de estos desastres naturales en un población mediante el uso de técnicas de logística humanitaria, los presentados en este caso de estudio son unos cuantos ejemplos de cómo se podría ayudar ya sea con el cálculo de las necesidades básicas de una determinada población afectada , el cálculo del espacio requerido, el cálculo de las capacidades de almacenamiento inclusive el calculo de raciones y el cálculo del transporte requerido considerando el combustible y el kilometraje. 
+
+> Cabe recalcar que estas técnicas solamente son una base que se podría utilizar ya que existen un sinfín de técnicas y metodologías que se pueden aplicar en situaciones relacionadas con desastres naturales pero el desafío queda en poner en práctica estas técnicas en cuanto surja una necesidad similar en una comunidad dentro de nuestro país .
+
+## Referencias
+
+> France24. (n.d.). France24. https://www.france24.com/es/am%C3%A9rica-latina/20220530-brasil-inundaciones-pernambuco-recife-91-muertos-26-desaparecidos
+
+> Manual para el Manejo Logístico de Suministros Humanitarios. (2000). [E-book]. Pan American Health Organization (PAHO) / Organización Panamericana de la Salud (OPS).
+
+> (Brasil precios de la gasolina, 06-jun-2022 | GlobalPetrolPrices.com, 2022)  
